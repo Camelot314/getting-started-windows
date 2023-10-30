@@ -149,3 +149,7 @@ Verify vim is added to path with:
 ```
 vim --version
 ```
+### Vim Customizations
+I have my own personal preferences for vim. While there 
+are thousands of settings you can set, you can view 
+my settings in the [.vimrc file](./.vimrc)
