@@ -15,6 +15,14 @@ Windows terminal can be found on the [Microsoft website](https://docs.microsoft.
 
 ## Installing Git
 
+### Installing Using winget package manager
+The winget package manager is the default package manager for windows.
+Using the following command will install git and add it to path.
+```
+ winget install --id Git.Git -e --source winget 
+```
+The command was retrieved from the [Git website](https://git-scm.com/download/win)
+### Installing Using Installer.
 Installer is available at the [Git website](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 <br>
 
@@ -27,7 +35,8 @@ Installer is available at the [Git website](https://git-scm.com/book/en/v2/Getti
 
    <img src="env_vars.png">
 
-3. Open a terminal and check to see if git is installed and added to the path with the following command.
+### Checking git is added to path
+Open a terminal and check to see if git is installed and added to the path with the following command.
    ```
    git --version
    ```
